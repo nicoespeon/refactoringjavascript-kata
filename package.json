@@ -1,0 +1,30 @@
+{
+  "name": "refactoringjavascript-kata",
+  "version": "1.0.0",
+  "description": "This is a coding exercise you can use to practice your refactoring skills.",
+  "author": "Nicolas Carlo",
+  "license": "MIT",
+  "keywords": [
+    "refactoring",
+    "legacy code",
+    "coding kata"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoespeon/refactoringjavascript-kata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicoespeon/refactoringjavascript-kata/issues"
+  },
+  "homepage": "https://github.com/nicoespeon/refactoringjavascript-kata#readme",
+  "main": "game.js",
+  "engines": {
+    "node": ">= 14.0.0 < 17"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "27.2.3"
+  }
+}
