@@ -6,6 +6,16 @@ I have crafted this kata for the [Refactoring JavaScript](https://refactoringjav
 
 It is based on [J. B. Rainsberger's Trivia kata](https://github.com/jbrains/trivia), which is itself a fork from [a Legacy Code Retreat kata](https://github.com/caradojo/trivia).
 
+## Exercise
+
+**Your goal is to refactor `Game` without breaking the tests, spending as few time as possible in a "broken" state.**
+
+In watch mode, each save will run the tests again.
+
+How **short** can you spend time between each test? The shortest, the better.
+
+Each time you save and tests stay green is a victory 🏆
+
 ## Pre-requisite
 
 [Node.js](https://nodejs.org/en/download/releases/) `>= v14` and `< v17`
@@ -29,7 +39,9 @@ You can launch a single test run with `npm test`
 
 Tests are using [Jest](https://jestjs.io/) to run.
 
-Since this kata is tailored for refactorings, tests are already present. If you want to practice writing tests on existing code, I recommend:
+Since this kata is tailored for refactorings, tests are already present. Your goal is NOT to understand, nor update these tests.
+
+If you want to practice writing tests on existing code, I recommend:
 
 - Learn about [Approval Testing]()
 - Use one of [these refactorings kata]()
